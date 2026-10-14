@@ -5,7 +5,7 @@
     "": {
       "name": "renovate-config",
       "devDependencies": {
-        "lint-config": "github:takudev-works/lint-config#de7c998",
+        "lint-config": "github:takudev-works/lint-config#b2561a9",
       },
     },
   },
@@ -524,7 +524,7 @@
 
     "linkify-it": ["linkify-it@6.1.0", "", { "dependencies": { "uc.micro": "^3.0.0" } }, "sha512-wJ/TwpSDTLepCrQoYWYIExIKg5Zchex2Nn5yk2mFnB+6PtdkHtyLx742md9csRjjOnGkKIS/RrbY7l8D6gT9Vw=="],
 
-    "lint-config": ["lint-config@github:takudev-works/lint-config#de7c998", { "dependencies": { "@commitlint/cli": "^21.2.3", "@commitlint/config-conventional": "^21.2.3", "@secretlint/secretlint-rule-preset-recommend": "^13.0.6", "cspell": "^10.3.6", "markdownlint-cli2": "^0.23.3", "npm-package-json-lint": "^11.0.0", "npm-run-all2": "^9.0.3", "secretlint": "^13.0.6" } }, "takudev-works-lint-config-de7c998", "sha512-JSKZtgB6T1lum8/kdNWs+wX3/NpMI9cHBU60VaN8iehAtDcITsp5IDMJAF7036PVv+wdfdr9qqmt8XDw5kHFdQ=="],
+    "lint-config": ["lint-config@github:takudev-works/lint-config#b2561a9", { "dependencies": { "@commitlint/cli": "^21.2.3", "@commitlint/config-conventional": "^21.2.3", "@secretlint/secretlint-rule-preset-recommend": "^13.0.6", "cspell": "^10.3.6", "markdownlint-cli2": "^0.23.3", "npm-package-json-lint": "^11.0.0", "npm-run-all2": "^9.0.3", "prettier": "^3.9.9", "secretlint": "^13.0.6" } }, "takudev-works-lint-config-b2561a9", "sha512-v1xOwPa8Y0IpCKF7A8KQiqXObUtfT6If3tbclqlKuw+eKwbqpIQ6HrGSBlRvGz89B0hU2drhvNuoCk5RUhqDwg=="],
 
     "locate-path": ["locate-path@5.0.0", "", { "dependencies": { "p-locate": "^4.1.0" } }, "sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g=="],
 
@@ -649,6 +649,8 @@
     "pidtree": ["pidtree@1.0.0", "", { "bin": { "pidtree": "bin/pidtree.js" } }, "sha512-avfAvjB9Dd0wdj3rjJX//yS+G79OO0KrS5pJHFJENjYGX6N4SMgEDBBI/yFy0lloOYSaC6XQxzpOAMPfSYFV/Q=="],
 
     "pluralize": ["pluralize@8.0.0", "", {}, "sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA=="],
+
+    "prettier": ["prettier@3.9.10", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA=="],
 
     "punycode.js": ["punycode.js@2.3.1", "", {}, "sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA=="],
 

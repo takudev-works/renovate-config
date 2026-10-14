@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "check": "run-p check:*",
+    "check:format": "prettier --check .",
     "check:markdown": "markdownlint-cli2 --config node_modules/lint-config/base.markdownlint-cli2.jsonc \"**/*.md\"",
     "check:package-json": "npmPkgJsonLint --configFile node_modules/lint-config/base.npmpackagejsonlintrc.json \"**/package.json\"",
     "check:renovate": "bunx --package renovate renovate-config-validator default.json renovate.json",
@@ -10,6 +11,7 @@
     "check:spell": "cspell --no-progress \"**\""
   },
   "devDependencies": {
-    "lint-config": "github:takudev-works/lint-config#de7c998"
-  }
+    "lint-config": "github:takudev-works/lint-config#b2561a9"
+  },
+  "prettier": "lint-config/base.prettierrc.json"
 }

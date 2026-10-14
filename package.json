@@ -11,7 +11,7 @@
     "check:spell": "cspell --no-progress \"**\""
   },
   "devDependencies": {
-    "dev-config": "github:takudev-works/dev-config#9b0def7"
+    "dev-config": "github:takudev-works/dev-config#v3.0.0"
   },
   "prettier": "dev-config/base.prettierrc.json"
 }

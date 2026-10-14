@@ -5,7 +5,7 @@
     "": {
       "name": "renovate-config",
       "devDependencies": {
-        "dev-config": "github:takudev-works/dev-config#9b0def7",
+        "dev-config": "github:takudev-works/dev-config#v3.0.0",
       },
     },
   },
@@ -422,7 +422,7 @@
 
     "dequal": ["dequal@2.0.3", "", {}, "sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA=="],
 
-    "dev-config": ["lint-config@github:takudev-works/dev-config#9b0def7", { "dependencies": { "@commitlint/cli": "^21.2.3", "@commitlint/config-conventional": "^21.2.3", "@eslint/js": "^10.0.1", "@secretlint/secretlint-rule-preset-recommend": "^13.0.6", "cspell": "^10.3.6", "eslint": "^10.11.0", "eslint-config-prettier": "^10.1.8", "markdownlint-cli2": "^0.23.3", "npm-package-json-lint": "^11.0.0", "npm-run-all2": "^9.0.3", "prettier": "^3.9.9", "secretlint": "^13.0.6", "typescript": "^6.0.3", "typescript-eslint": "^8.71.0" } }, "takudev-works-dev-config-9b0def7", "sha512-YvYSgGmHusvxnz9wBbDxLQm4ZyhgW1HO28rCv9fI/d4DDa6lF4Wm3bjxcz4e83dHAjOuYbT19Uz8A5zr5HnRQw=="],
+    "dev-config": ["dev-config@github:takudev-works/dev-config#7b6a673", { "dependencies": { "@commitlint/cli": "^21.2.3", "@commitlint/config-conventional": "^21.2.3", "@eslint/js": "^10.0.1", "@secretlint/secretlint-rule-preset-recommend": "^13.0.6", "cspell": "^10.3.6", "eslint": "^10.11.0", "eslint-config-prettier": "^10.1.8", "markdownlint-cli2": "^0.23.3", "npm-package-json-lint": "^11.0.0", "npm-run-all2": "^9.0.3", "prettier": "^3.9.9", "secretlint": "^13.0.6", "typescript": "^6.0.3", "typescript-eslint": "^8.71.0" } }, "takudev-works-dev-config-7b6a673", "sha512-FO+ydsc24cvTXqgcD/mRQvJjOubrqjCto3FrPlVzLwfUUf+e2qG9jwy7WKfUdziSVglcUkQ0nyAhVg6qlrHb9w=="],
 
     "devlop": ["devlop@1.1.0", "", { "dependencies": { "dequal": "^2.0.0" } }, "sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA=="],
 

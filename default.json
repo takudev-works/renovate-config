@@ -24,7 +24,7 @@
       "enabled": false
     },
     {
-      "description": "typescript-eslint は TS 7 を実行時に拒否する(peerDependencies が typescript >=4.8.4 <6.1.0)。TS 7 に上げると lint が Error: typescript-eslint does not support TS 7.0 で落ちる。typescript-eslint が TS 7 に対応したら制限を外す(typescript-eslint issue 10940)。TypeScript は lint-config の依存なので、どの repo にも効くようにここに置く。",
+      "description": "typescript-eslint は TS 7 を実行時に拒否する(peerDependencies が typescript >=4.8.4 <6.1.0)。TS 7 に上げると lint が Error: typescript-eslint does not support TS 7.0 で落ちる。typescript-eslint が TS 7 に対応したら制限を外す(typescript-eslint issue 10940)。TypeScript は dev-config の依存なので、どの repo にも効くようにここに置く。",
       "matchPackageNames": ["typescript"],
       "allowedVersions": "<7"
     },
@@ -64,7 +64,7 @@
     },
     {
       "description": "takudev-works の共通設定は自分たちで出すので、公開から日を置かずに上げ、major も Dashboard での承認を待たない。",
-      "matchDepNames": ["lint-config"],
+      "matchDepNames": ["dev-config"],
       "minimumReleaseAge": null,
       "dependencyDashboardApproval": false
     }

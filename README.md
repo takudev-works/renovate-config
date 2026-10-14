@@ -20,6 +20,7 @@ Takudev の repo に共通の Renovate の設定（preset）の正本。各 repo
 | 上げ方 | 公開から 7 日たった版だけを上げる。範囲指定（`^` など）の下限も上げる |
 | まとめ方 | npm・Python・GitHub Actions・mise・Terraform のそれぞれで、major 以外を 1 本の PR にまとめる |
 | major | Dependency Dashboard で承認してから PR を出す |
+| TypeScript | 7 未満に止める。typescript-eslint が TS 7 にまだ対応していないため |
 | `lint-config` | 自分たちで出すので、7 日待たず、major も承認を待たない |
 
 repo ごとの事情（base のブランチ、ランタイムの制約、特定のパッケージの上限など）は、各 repo の `renovate.json` に書く。

@@ -11,7 +11,7 @@
     "check:spell": "cspell --no-progress \"**\""
   },
   "devDependencies": {
-    "lint-config": "github:takudev-works/lint-config#b2561a9"
+    "lint-config": "github:takudev-works/lint-config#9b0def7"
   },
   "prettier": "lint-config/base.prettierrc.json"
 }

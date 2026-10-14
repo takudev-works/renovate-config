@@ -1,0 +1,18 @@
+glob_matcher: doublestar
+
+commit-msg:
+  commands:
+    commitlint:
+      run: bun commitlint --config node_modules/lint-config/base.commitlintrc.json --edit {1}
+
+pre-commit:
+  parallel: true
+  commands:
+    markdownlint:
+      glob: '**/*.md'
+      run: bun markdownlint-cli2 --config node_modules/lint-config/base.markdownlint-cli2.jsonc {staged_files}
+    cspell:
+      glob: '**/*.{md,json,yml,yaml}'
+      run: bun cspell --no-progress --no-summary {staged_files}
+    secretlint:
+      run: bun secretlint --secretlintrc node_modules/lint-config/base.secretlintrc.json --secretlintignore node_modules/lint-config/base.secretlintignore {staged_files}

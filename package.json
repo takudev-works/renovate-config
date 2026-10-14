@@ -1,0 +1,14 @@
+{
+  "name": "renovate-config",
+  "private": true,
+  "scripts": {
+    "check": "run-p check:*",
+    "check:markdown": "markdownlint-cli2 --config node_modules/lint-config/base.markdownlint-cli2.jsonc \"**/*.md\"",
+    "check:renovate": "bunx --package renovate renovate-config-validator default.json renovate.json",
+    "check:secrets": "secretlint --secretlintrc node_modules/lint-config/base.secretlintrc.json --secretlintignore node_modules/lint-config/base.secretlintignore \"**/*\"",
+    "check:spell": "cspell --no-progress \"**/*.{md,json,yml,yaml}\""
+  },
+  "devDependencies": {
+    "lint-config": "github:takudev-works/lint-config#f4277a6"
+  }
+}

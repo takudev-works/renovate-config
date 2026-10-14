@@ -7,9 +7,4 @@ on:
 
 jobs:
   validate:
-    runs-on: blacksmith-2vcpu-ubuntu-2404
-    steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v2
-      - run: bun install --frozen-lockfile
-      - run: bun run check
+    uses: takudev-works/dev-config/.github/workflows/reusable-validate.yml@83aa5b3bc221dd57892a3be4d5907e2fa435711c

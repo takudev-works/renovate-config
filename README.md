@@ -27,6 +27,6 @@ repo ごとの事情（base のブランチ、ランタイムの制約、特定�
 
 ## 変更の流れ
 
-変更は PR で出し、`validate` が通ってから merge する。`validate` では、Markdown・スペル・秘密情報の検査と、`renovate-config-validator` による設定の検査をする。
+変更は PR で出し、`Org Requirements`（check の名前は `dev-config / validate`）が通ってから merge する。そこでは `bun run validate` で、Markdown・スペル・秘密情報の検査と、`renovate-config-validator` による設定の検査をする。
 
 手元では `mise run setup` で依存と lefthook を入れる。

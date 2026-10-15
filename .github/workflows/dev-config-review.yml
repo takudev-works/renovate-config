@@ -8,7 +8,7 @@ on:
 
 jobs:
   review:
-    uses: takudev-works/dev-config/.github/workflows/reusable-dev-config-review.yml@fb85acb30c0c56077eb9599237a1b0d567415cb0 # v3.1.0
+    uses: takudev-works/dev-config/.github/workflows/reusable-dev-config-review.yml@0193ba893fb40a7bdc960a9a6e0b15eb9d923c2c # v4.0.0
     secrets: inherit
     permissions:
       contents: write
